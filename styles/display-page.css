@@ -1,0 +1,52 @@
+ * {
+  border: 1px solid black;
+ }
+
+ html,
+ body {
+   border: none;
+ }
+
+.main-block {
+  width: 800px;
+  font-size: 0;
+  border: 1px black;
+  margin: 0 auto;
+  position: relative;
+  top: 73px;
+}
+
+.rectangles {
+  height: 200px;
+  display: inline-block;
+}
+
+.rect-green {
+  background-color: #387920;
+  width: 50%;
+}
+
+.rect-blue {
+  background-color: #194CF2;
+  width: 50%;
+}
+
+.sm-rectangles {
+  height: 300px;
+  display: inline-block;
+}
+
+.rect-gray {
+  background-color: #808080;
+  width: 33.33%;
+}
+
+.rect-black {
+  background-color: #000000;
+  width: 33.33%;
+}
+
+.rect-yellow {
+  background-color: #F4A448;
+  width: 33.33%;
+}
